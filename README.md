@@ -14,8 +14,8 @@ Welcome to the **AI + DevOps / MLOps** practical learning journey! This reposito
 | Week | Day | Focus Area | Status | Code & Notes |
 | :--- | :--- | :--- | :---: | :--- |
 | **Week 1** | **Day 1** | **Introduction to AI, ML, Deep Learning & AWS Services** | ✅ Done | [Notes](week-01/day-01-notes.md) \| [Lab Code](week-01/day1_infra_monitoring.py) |
-| **Week 1** | **Day 2** | Python for Data Analysis (NumPy & Pandas for DevOps metrics) | ⏳ Up Next | Coming soon |
-| **Week 1** | **Day 3** | Data Visualization (Matplotlib & Seaborn for server telemetry) | ⏳ Upcoming | Coming soon |
+| **Week 1** | **Day 2** | **Python for Data Analysis (NumPy & Pandas for DevOps metrics)** | ✅ Done | [Notes](week-01/day-02-notes.md) \| [Lab Code](week-01/day2.py) \| [Extended Lab](week-01/day2_numpy_pandas_devops.py) |
+| **Week 1** | **Day 3** | Data Visualization (Matplotlib & Seaborn for server telemetry) | ⏳ Up Next | Coming soon |
 | **Week 1** | **Day 4** | Supervised Learning: Linear Regression for Capacity Planning | ⏳ Upcoming | Coming soon |
 | **Week 1** | **Day 5** | Classification Models for Server Incident Triage | ⏳ Upcoming | Coming soon |
 | **Week 1** | **Day 6** | Unsupervised Learning: Anomaly Detection on Cloud Logs | ⏳ Upcoming | Coming soon |
@@ -30,11 +30,12 @@ learn-AI-Ops/
 ├── .gitignore                      # Python and virtual environment exclusions
 ├── README.md                       # Roadmap, setup guide, and progress tracker
 ├── requirements.txt                # Core Python libraries
-├── ai-devops-learning/             # Interactive practice workspace
-│   └── day1.py                     # Initial telemetry test script
 └── week-01/                        # Week 1: AI/ML Fundamentals & Applied Python
     ├── day-01-notes.md             # Theoretical notes, comparisons & quiz
-    └── day1_infra_monitoring.py    # Metric aggregation & rule-based monitoring lab
+    ├── day1_infra_monitoring.py    # Metric aggregation & rule-based monitoring lab
+    ├── day-02-notes.md             # NumPy & Pandas fundamentals, SLA percentiles
+    ├── day2.py                     # NumPy 2D server fleet analysis lab
+    └── day2_numpy_pandas_devops.py # Multi-node cluster telemetry analysis lab
 ```
 
 ---

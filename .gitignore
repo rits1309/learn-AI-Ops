@@ -1,7 +1,7 @@
-# Virtual Environments
+# Virtual Environments & practice folders
 .venv/
 ai-env/
-ai-devops-learning/ai-env/
+ai-devops-learning/
 venv/
 env/
 ENV/
